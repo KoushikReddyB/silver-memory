@@ -1,0 +1,18 @@
+venv/
+/build
+/dist
+*.pyc
+* ~
+*.swp
+__pycache__
+# Runtime volumes
+Keycloak/postgres_data/
+OpenLDAP/data/
+
+# certs / secrets
+*.pem
+*.key
+*.crt
+
+# docker junk
+*.log
